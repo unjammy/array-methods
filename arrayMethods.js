@@ -33,3 +33,6 @@ for(var i = 6; i < 11; i++){
 }
 
 var popResult = colors.pop();
+
+scrambledWords.reverse();
+phoneNumber.reverse();
