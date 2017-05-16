@@ -16,6 +16,8 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
+
+// Push
 var nameArray = [];
 nameArray.push('clark', 'denunzio');
 
@@ -32,7 +34,12 @@ for(var i = 6; i < 11; i++){
   genericNumberArray.push(i);
 }
 
+// Pop
 var popResult = colors.pop();
 
+// Reverse
 scrambledWords.reverse();
 phoneNumber.reverse();
+
+// Shift
+var nextOrder = orderQueue.shift();
