@@ -43,3 +43,8 @@ phoneNumber.reverse();
 
 // Shift
 var nextOrder = orderQueue.shift();
+
+// Sort
+mixedNums.sort();
+mixedWords.sort();
+
