@@ -69,3 +69,8 @@ var updatedOrders = orderQueue.concat([{takeOut: "turkey club"}, {takeOut: "medi
 
 var sentence = scrambledWords.join(' ');
 var myFruits = fruitCollection.join(' + ');
+
+// Slice
+
+var favoriteFriends = friends.slice(1, 3);
+var owesMoney = friends.slice(3, 6);
